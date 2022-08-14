@@ -1,0 +1,22 @@
+@use "../custom" as *;
+//Gradient Mixin.
+@mixin gradient{
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    } 
+    @mixin btn-gradient{
+        background: linear-gradient(to left, rgba($primary, 0.95), rgba($secondary, 0.95));
+        } 
+//absolute center mixin.
+@mixin absolute-center {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+//Transition Property mixin.
+@mixin transition-property{
+transition-duration: 1000ms;
+transition-property: all;
+
+
+}

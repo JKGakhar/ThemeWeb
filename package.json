@@ -1,0 +1,26 @@
+{
+  "name": "selfmade",
+  "version": "1.0.0",
+  "description": "This a bootstrap sample project by Jatinder Kumar Gakhar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "jatinder"
+  ],
+  "author": "jatinder kumar gakhar",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}

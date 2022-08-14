@@ -1,0 +1,6 @@
+This script line"npm run compile:sass"
+ is added in package.json
+file.
+To Compile open the terminal and 
+type the following command.  
+"npm run compile:sass"
